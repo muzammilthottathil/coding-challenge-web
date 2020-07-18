@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&family=Rokkitt:wght@400;500;600;700;800&display=swap");
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3f3838;
+}
+
+.main-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .heading {
+    font-family: "Rokkitt", serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: calc(0.8rem + 1vw);
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #c8c8c8;
+    text-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+
+    @include tablet {
+      font-size: 25px;
+      line-height: 28px;
+    }
+    @include desktop {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }
+  .reangle {
+    @include tablet {
+      width: 220px;
+    }
+    @include desktop {
+      width: 220px;
+    }
+  }
+
+  .avatar-selection {
+    padding: 8% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .avatar {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 82px;
+      letter-spacing: 0.05em;
+      color: #7e7e7e;
+
+      @include tablet {
+        font-size: 6rem;
+      }
+      @include desktop {
+        font-size: 8rem;
+      }
+    }
+
+    .left-slider {
+      &:hover {
+        transform: scale(1.5) translateX(-4px);
+      }
+      &:active {
+        transform: scale(1.5) translateX(-10px);
+      }
+    }
+    .right-slider {
+      &:hover {
+        transform: scale(1.5) translateX(4px);
+      }
+      &:active {
+        transform: scale(1.5) translateX(10px);
+      }
+    }
+    .left-slider,
+    .right-slider {
+      transition: transform 100ms;
+
+      @include tablet {
+        width: 30px;
+      }
+      @include desktop {
+        width: 40px;
+      }
+    }
+  }
+  .proceed {
+    animation: swing 300ms ease-in-out infinite alternate;
+
+    @include tablet {
+      width: 130px;
+    }
+    @include desktop {
+      width: 150px;
+    }
+    &::active {
+      transform: translateX(-100px);
+    }
+  }
+  .proceed-go {
+    animation: go 500ms ease-in forwards;
+
+    @include tablet {
+      width: 130px;
+    }
+    @include desktop {
+      width: 150px;
+    }
+  }
+  @keyframes swing {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(5%);
+    }
+  }
+  @keyframes go {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100vw);
+    }
+  }
+}
+
+/* ================
+    CHALLENGE PAGE
+  ==================*/
+
+.challenge-page {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      @include tablet {
+        width: 220px;
+      }
+      @include desktop {
+        width: 220px;
+      }
+    }
+
+    .heading {
+      font-family: "Rokkitt", serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: calc(0.8rem + 1vw);
+      line-height: 17px;
+      letter-spacing: 0.05em;
+      color: #c8c8c8;
+      text-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+
+      &::before {
+        content: "";
+        background-color: #515151;
+        width: 80%;
+        height: 1px;
+        margin-top: 1.5em;
+        left: 10%;
+        position: absolute;
+      }
+
+      @include tablet {
+        font-size: 25px;
+        line-height: 28px;
+      }
+      @include desktop {
+        font-size: 35px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  .challenge-day {
+    #day-number {
+      margin: 7vh 2vw;
+      display: inline-block;
+      border-radius: 7px;
+      padding: 0.5rem 0.9rem;
+      margin-bottom: 1.3rem;
+      background-color: #292929;
+
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      color: #c8c8c8;
+
+      @include desktop {
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+    .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin: 0 2.5vw;
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0.5rem;
+
+        background: #292929;
+        box-shadow: 0px 3px 6px rgba(38, 38, 38, 0.5);
+        border-radius: 7px;
+        padding: 10px 20px;
+
+        .top {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 10px;
+
+          #problem-number {
+            font-family: "Open Sans", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 8px;
+            line-height: 11px;
+            letter-spacing: 0.05em;
+            padding: 5px 10px;
+
+            color: #ffffff;
+
+            background: #3f3838;
+            border: 1px solid #605858;
+            box-sizing: border-box;
+            border-radius: 5px;
+
+            @include desktop {
+              font-size: 0.75rem;
+              line-height: 22px;
+            }
+          }
+          #date {
+            font-family: "Open Sans", sans-serif;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 8px;
+            line-height: 11px;
+            letter-spacing: 0.05em;
+
+            color: #d7d7d7;
+
+            @include desktop {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+        .middle {
+          padding: 5px 5%;
+          padding-top: 20px;
+
+          #problem-heading {
+            font-family: "Rokkitt", serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 17px;
+            letter-spacing: 0.05em;
+
+            color: #ffffff;
+
+            @include desktop {
+              font-size: 20px;
+              line-height: 23px;
+            }
+          }
+
+          #problem-description {
+            font-family: "Rokkitt", serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.05em;
+
+            padding-top: 1rem;
+
+            color: #c8c8c8;
+
+            @include desktop {
+              font-size: 18px;
+              line-height: 23px;
+            }
+          }
+        }
+        .bottom {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-top: 30px;
+
+          .who-done {
+            font-family: "Open Sans", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 8px;
+            line-height: 11px;
+            letter-spacing: 0.05em;
+
+            color: #736d6d;
+
+            padding-top: 10px;
+
+            @include desktop {
+              font-size: 10px;
+              line-height: 14px;
+            }
+          }
+          .get-task {
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 8px;
+            line-height: 11px;
+            letter-spacing: 0.05em;
+
+            padding: 3px 10px;
+
+            color: #ffffff;
+            background: #222222;
+            border: 1px solid #605858;
+            box-sizing: border-box;
+            border-radius: 5px;
+
+            @include desktop {
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+
+        @include desktop {
+          max-width: 30vw;
+        }
+      }
+    }
+    .show-all-challenges {
+      margin-top: 20px;
+      margin-right: 50px;
+
+      display: flex;
+      justify-content: flex-end;
+
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+
+      span {
+        padding: 5px 10px;
+        background: #292929;
+        box-shadow: 0px 3px 6px rgba(38, 38, 38, 0.5);
+        border-radius: 7px;
+        color: #c8c8c8;
+      }
+
+      @include desktop {
+        font-size: 16px;
+        line-height: 27px;
+      }
+    }
+  }
+  margin-bottom: 100px;
+}

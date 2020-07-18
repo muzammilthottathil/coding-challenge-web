@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Challenge</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body class="main-page">
+    <img class="reangle" src="./img/reangle.svg" alt="reangle" />
+    <h1 class="heading">< Daily Coding Challenge /></h1>
+    <div class="avatar-selection">
+      <img
+        src="./img/left.svg"
+        alt=""
+        class="left-slider"
+        onclick="leftSlider()"
+      />
+      <h1 class="avatar" id="avatar">D</h1>
+      <img
+        src="./img/right.svg"
+        alt=""
+        class="right-slider"
+        onclick="rightSlider()"
+      />
+    </div>
+    <img
+      src="./img/proceed.svg"
+      alt=""
+      class="proceed"
+      id="proceed"
+      onclick="replaceWindow()"
+    />
+
+    <script src="./js/init.js"></script>
+  </body>
+</html>
