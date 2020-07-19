@@ -22,11 +22,68 @@ let currentCoderId = Number(window.localStorage.getItem("currentCoderId"));
 /*
 
 let problem = {
-    {
-        day : 1,
-
-    }
-}
+    day1 : [
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        },
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        },
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        }
+    ],
+    day2 : [
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        },
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        },
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        }
+    ],
+    day3 : [
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        },
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        },
+        {
+        heading : "Sherlock and Array",
+        description : "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
+        link : "http://hr.gs/4ta16",
+        whoDone : ["M","N","D"]
+        }
+    ]
+    
+};
 
 
 let individualCards = "";
@@ -37,7 +94,7 @@ let totalCards =
 
 */
 
-let challengeDay = 3;
+let challengeDay = 5;
 let problemNumber = 1;
 document.getElementById("day-number").innerHTML = "Day-" + challengeDay;
 document.getElementById("problem-number").innerHTML =
@@ -45,7 +102,7 @@ document.getElementById("problem-number").innerHTML =
 document.getElementById("problem-description").innerHTML =
   "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.";
 document.getElementById("problem-heading").innerHTML = "Sherlock and Array";
-document.getElementById("date").innerHTML = "13-July-2020";
+document.getElementById("date").innerHTML = "18-July-2020";
 
 const showAllDays = () => {
   alert(
