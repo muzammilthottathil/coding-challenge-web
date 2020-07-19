@@ -6,87 +6,19 @@
     <title>Challenge</title>
     <link rel="stylesheet" href="../styles/index.css" />
   </head>
-  <body class="challenge-page">
+
+  <body class="challenge-page" onload="load()">
     <header>
       <img src="../img/reangle.svg" alt="reangle" />
-      <h1 class="heading">< Daily Coding Challenge /></h1>
+      <h1 class="heading">
+        < Daily Coding Challenge />
+      </h1>
     </header>
 
-    <div class="challenge-day">
-      <div id="day-number"></div>
-      <div class="cards">
-        <div class="card">
-          <div class="top">
-            <div id="problem-number"></div>
-            <div id="date"></div>
-          </div>
-          <div class="middle">
-            <div id="problem-heading"></div>
-            <div id="problem-description"></div>
-          </div>
-          <div class="bottom">
-            <div class="who-done">
-              <span class="first-done">M</span>
-              <span class="second-done">D</span>
-              <span class="third-done">N</span>
-            </div>
-            <a href="http://hr.gs/4ta16" class="get-task">GET TASK NOW</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="top">
-            <div id="problem-number">Problem #2</div>
-            <div id="date">19-July-2020</div>
-          </div>
-          <div class="middle">
-            <div id="problem-heading">Reverse Alternate Nodes</div>
-            <div id="problem-description">
-              Given a perfect binary tree having N nodes, you have to reverse
-              its alternate levels. That is reverse level 2, level 4 and so on.
-              Root is at level 1.
-            </div>
-          </div>
-          <div class="bottom">
-            <div class="who-done">
-              <span class="first-done">M</span>
-              <span class="second-done">D</span>
-              <span class="third-done">N</span>
-            </div>
-            <a
-              href="https://codezen.codingninjas.com/practice/540641/794/reverse-alternate-nodes"
-              class="get-task"
-              >GET TASK NOW</a
-            >
-          </div>
-        </div>
-        <div class="card">
-          <div class="top">
-            <div id="problem-number">Problem #3</div>
-            <div id="date">19-July-2020</div>
-          </div>
-          <div class="middle">
-            <div id="problem-heading">Reverse Level Order Traversal</div>
-            <div id="problem-description">
-              Given a binary tree.Traverse the tree in the manner of reverse
-              level order.
-            </div>
-          </div>
-          <div class="bottom">
-            <div class="who-done">
-              <span class="first-done">M</span>
-              <span class="second-done">D</span>
-              <span class="third-done">N</span>
-            </div>
-            <a
-              href="https://codezen.codingninjas.com/practice/537962/1930/reverse-level-order-traversal"
-              class="get-task"
-              >GET TASK NOW</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="show-all-challenges">
-        <span onclick="showAllDays()">Show all Days</span>
+    <div class="challenge-day" id="challenge-day"></div>
+    <div class="show-today">
+      <div onclick="showToday()" id="show-today">
+        Show Today
       </div>
     </div>
 

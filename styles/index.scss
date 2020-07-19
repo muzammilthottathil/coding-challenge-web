@@ -378,11 +378,12 @@ body {
       }
     }
     .show-all-challenges {
-      margin-top: 20px;
-      margin-right: 50px;
+      margin-top: 50px;
+
+      margin-right: 0;
 
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-evenly;
 
       font-family: "Open Sans", sans-serif;
       font-style: normal;
@@ -401,10 +402,58 @@ body {
       }
 
       @include desktop {
+        justify-content: flex-end;
+        margin-right: 30px;
+
         font-size: 16px;
         line-height: 27px;
+        span {
+          margin-right: 20px;
+        }
       }
     }
   }
+
+  .show-today {
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    div {
+      outline: none;
+      padding: 10px 30px;
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 27px;
+      letter-spacing: 0.05em;
+      color: #333;
+
+      border-radius: 2rem;
+      background-color: #b9b7b7;
+      border: 3px solid #777777;
+      cursor: pointer;
+      transform-origin: bottom;
+
+      animation: anim 0.8s infinite alternate;
+      @include desktop {
+        border-width: 4px;
+        font-size: 18px;
+      }
+      @keyframes anim {
+        from {
+          transform: scale(0.9);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+
   margin-bottom: 100px;
 }

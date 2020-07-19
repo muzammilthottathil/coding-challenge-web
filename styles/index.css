@@ -513,14 +513,14 @@ body {
 }
 
 .challenge-page .challenge-day .show-all-challenges {
-  margin-top: 20px;
-  margin-right: 50px;
+  margin-top: 50px;
+  margin-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -541,8 +541,79 @@ body {
 
 @media (min-width: 1024px) {
   .challenge-page .challenge-day .show-all-challenges {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 30px;
     font-size: 16px;
     line-height: 27px;
+  }
+  .challenge-page .challenge-day .show-all-challenges span {
+    margin-right: 20px;
+  }
+}
+
+.challenge-page .show-today {
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.challenge-page .show-today div {
+  outline: none;
+  padding: 10px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #333;
+  border-radius: 2rem;
+  background-color: #b9b7b7;
+  border: 3px solid #777777;
+  cursor: pointer;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-animation: anim 0.8s infinite alternate;
+          animation: anim 0.8s infinite alternate;
+}
+
+@media (min-width: 1024px) {
+  .challenge-page .show-today div {
+    border-width: 4px;
+    font-size: 18px;
+  }
+}
+
+@-webkit-keyframes anim {
+  from {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes anim {
+  from {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 /*# sourceMappingURL=index.css.map */
