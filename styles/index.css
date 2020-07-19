@@ -8,6 +8,7 @@
 
 body {
   background-color: #3f3838;
+  cursor: default;
 }
 
 .main-page {
@@ -529,6 +530,7 @@ body {
 }
 
 .challenge-page .challenge-day .show-all-challenges span {
+  cursor: pointer;
   padding: 5px 10px;
   background: #292929;
   -webkit-box-shadow: 0px 3px 6px rgba(38, 38, 38, 0.5);
