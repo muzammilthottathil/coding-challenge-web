@@ -47,7 +47,7 @@ const problem = {
     {
       heading: "Closest product pair in an array",
       description:
-        "Given an integer num, find the closest two integers in absolute difference whose product equals(num + 1 ) or (num + 2).",
+        "Given an integer num, find the closest two integers in absolute difference whose product equals (num + 1 ) or (num + 2).",
       link: "https://www.geeksforgeeks.org/closest-product-pair-array/",
       whoDone: ["N", "D"],
       date: "14-July-2020",
