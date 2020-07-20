@@ -1,106 +1,111 @@
 const problem = {
   day1: [
     {
-      heading: "first Day",
-      description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
-      whoDone: ["M", "N"],
-      date: "19-July-2020",
+      heading: "Birthday Cake Candles",
+      description: "Determine the number of candles that are blown out.",
+      link:
+        "https://www.hackerrank.com/challenges/birthday-cake-candles/problem",
+      whoDone: ["M", "N", "D"],
+      date: "13-July-2020",
     },
     {
-      heading: "Sherlock and Array",
+      heading: "Sort Binary Array",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "Given an array, containing only 0 and 1 as its elements. The elements are kept in random order. You have to sort the array.",
+      link:
+        "https://codezen.codingninjas.com/practice/236720/5537/interview-shuriken-40:-sort-binary-array",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "13-July-2020",
     },
     {
-      heading: "Sherlock and Array",
+      heading: "Dutch National Flag",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "You are given an array with only 0s,1s and 2s. Sort the array in O(n)",
+      link:
+        "https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "13-July-2020",
     },
   ],
   day2: [
     {
-      heading: "Second day",
+      heading: "Top K Frequent Elements",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "Given a non-empty array of integers, return the k most frequent elements.",
+      link: "https://leetcode.com/problems/top-k-frequent-elements/",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "14-July-2020",
     },
     {
-      heading: "Sherlock and Array",
+      heading: "Power Set",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "Given a set of distinct integers, nums, return all possible subsets(The power set).",
+      link: "https://practice.geeksforgeeks.org/problems/power-set/0",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "14-July-2020",
     },
     {
-      heading: "Sherlock and Array",
+      heading: "Closest product pair in an array",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "Given an integer num, find the closest two integers in absolute difference whose product equals(num + 1 ) or (num + 2).",
+      link: "https://www.geeksforgeeks.org/closest-product-pair-array/",
       whoDone: ["M", "N"],
-      date: "19-July-2020",
+      date: "14-July-2020",
     },
   ],
   day3: [
     {
-      heading: "third Day",
+      heading: "First repeated character",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "You are given a string. Find the first recurring character in the string.",
+      link:
+        "https://www.geeksforgeeks.org/find-the-first-repeated-character-in-a-string/",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "16-July-2020",
     },
     {
-      heading: "Sherlock and Array",
+      heading: "Longest Sequence",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "You are given an unsorted array. Find the length of the longest sequence of consecutive numbers in the array.",
+      link:
+        "https://codezen.codingninjas.com/practice/470/2295/longest-sequence",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "16-July-2020",
     },
     {
-      heading: "Sherlock and Array",
-      description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+      heading: "Group Anagrams Together",
+      description: "You are given an array, group the anagrams together.",
+      link: "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "16-July-2020",
     },
   ],
   day4: [
     {
-      heading: "Sherlock and Array",
+      heading: "Merge Two linked lists",
       description:
-        "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
-      link: "http://hr.gs/4ta16",
+        "Given two linked lists sorted in increasing order. Merge them such a way that the result list is in decreasing order",
+      link:
+        "https://codezen.codingninjas.com/practice/469/762/merge-two-linked-lists",
       whoDone: ["M", "N"],
-      date: "19-July-2020",
+      date: "17-July-2020",
     },
     {
-      heading: "Reverse Alternate Nodes",
+      heading: "Rearrange linked list",
       description:
-        "Given a perfect binary tree having N nodes, you have to reverse its alternate levels. That is reverse level 2, level 4 and so on. Root is at level 1.",
-      link: "http://hr.gs/4ta16",
+        "Given a singly linked list L : L0→L1→…→Ln-1→Ln . Rearrange the nodes in the list so that the new formed list is : L0→Ln→L1→Ln-1→L2→Ln-2→…",
+      link:
+        "https://codezen.codingninjas.com/practice/469/764/rearrange-linked-list",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "17-July-2020",
     },
     {
-      heading: "Reverse Level Order Traversal",
+      heading: "Angry Professor",
       description:
-        "Given a binary tree.Traverse the tree in the manner of reverse level order.",
-      link: "http://hr.gs/4ta16",
+        "Decide whether or not the class will be canceled based on the arrival times of its students.",
+      link: "http://hr.gs/4jfml",
       whoDone: ["M", "N", "D"],
-      date: "19-July-2020",
+      date: "17-July-2020",
     },
   ],
   day5: [
@@ -116,7 +121,8 @@ const problem = {
       heading: "Reverse Alternate Nodes",
       description:
         "Given a perfect binary tree having N nodes, you have to reverse its alternate levels. That is reverse level 2, level 4 and so on. Root is at level 1.",
-      link: "http://hr.gs/4ta16",
+      link:
+        "https://codezen.codingninjas.com/practice/540641/794/reverse-alternate-nodes",
       whoDone: ["M", "N", "D"],
       date: "19-July-2020",
     },
@@ -124,9 +130,38 @@ const problem = {
       heading: "Reverse Level Order Traversal",
       description:
         "Given a binary tree.Traverse the tree in the manner of reverse level order.",
-      link: "http://hr.gs/4ta16",
+      link:
+        "https://codezen.codingninjas.com/practice/537962/1930/reverse-level-order-traversal",
       whoDone: ["M", "N", "D"],
       date: "19-July-2020",
+    },
+  ],
+  day6: [
+    {
+      heading: "Least Number of Unique Integers after K Removals",
+      description:
+        "Given an array of integers arr and an integer k. Find the least number of unique integers after removing exactly k elements.",
+      link:
+        "https://practice.geeksforgeeks.org/problems/minimum-distinct-ids/0",
+      whoDone: [],
+      date: "20-July-2020",
+    },
+    {
+      heading: "Product array puzzle",
+      description:
+        "Given an array, replace each element with the product of every other elements in the array without using division operator",
+      link:
+        "https://practice.geeksforgeeks.org/problems/product-array-puzzle/0",
+      whoDone: [],
+      date: "20-July-2020",
+    },
+    {
+      heading: "Distinct Echo Substrings",
+      description:
+        "Return the number of distinct non-empty substrings of text that can be written as the concatenation of some string with itself ",
+      link: "https://leetcode.com/problems/distinct-echo-substrings/",
+      whoDone: [],
+      date: "20-July-2020",
     },
   ],
 };
@@ -195,12 +230,9 @@ let dayNumber;
 const dayNumberHtml = (dayNumber) =>
   '<div id="day-number">Day-' + dayNumber + "</div>";
 
-let challengeDay = 5;
-problemNumber = 1;
-
 let totalProblemCount = Object.keys(problem).length;
 dayNumber = 3;
-let currentDay = 5;
+let currentDay = 6;
 let dayRetrive = "day" + currentDay;
 
 const showAllDays = () => {
