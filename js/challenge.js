@@ -41,7 +41,7 @@ const problem = {
       description:
         "Given a set of distinct integers, nums, return all possible subsets(The power set).",
       link: "https://practice.geeksforgeeks.org/problems/power-set/0",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["N", "D"],
       date: "14-July-2020",
     },
     {
@@ -49,7 +49,7 @@ const problem = {
       description:
         "Given an integer num, find the closest two integers in absolute difference whose product equals(num + 1 ) or (num + 2).",
       link: "https://www.geeksforgeeks.org/closest-product-pair-array/",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["N", "D"],
       date: "14-July-2020",
     },
   ],
@@ -69,14 +69,14 @@ const problem = {
         "You are given an unsorted array. Find the length of the longest sequence of consecutive numbers in the array.",
       link:
         "https://codezen.codingninjas.com/practice/470/2295/longest-sequence",
-      whoDone: ["M", "N"],
+      whoDone: ["N"],
       date: "16-July-2020",
     },
     {
       heading: "Group Anagrams Together",
       description: "You are given an array, group the anagrams together.",
       link: "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0",
-      whoDone: ["M", "N"],
+      whoDone: ["N"],
       date: "16-July-2020",
     },
   ],
@@ -87,7 +87,7 @@ const problem = {
         "Given two linked lists sorted in increasing order. Merge them such a way that the result list is in decreasing order",
       link:
         "https://codezen.codingninjas.com/practice/469/762/merge-two-linked-lists",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["N", "D"],
       date: "17-July-2020",
     },
     {
@@ -96,7 +96,7 @@ const problem = {
         "Given a singly linked list L : L0→L1→…→Ln-1→Ln . Rearrange the nodes in the list so that the new formed list is : L0→Ln→L1→Ln-1→L2→Ln-2→…",
       link:
         "https://codezen.codingninjas.com/practice/469/764/rearrange-linked-list",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["N", "D"],
       date: "17-July-2020",
     },
     {
@@ -114,7 +114,7 @@ const problem = {
       description:
         "Check whether there exists an element in the array such that sum of elements on its left is equal to the sum of elements on its right.",
       link: "http://hr.gs/4ta16",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["N", "D"],
       date: "19-July-2020",
     },
     {
@@ -123,7 +123,7 @@ const problem = {
         "Given a perfect binary tree having N nodes, you have to reverse its alternate levels. That is reverse level 2, level 4 and so on. Root is at level 1.",
       link:
         "https://codezen.codingninjas.com/practice/540641/794/reverse-alternate-nodes",
-      whoDone: ["M", "N"],
+      whoDone: ["N"],
       date: "19-July-2020",
     },
     {
@@ -132,7 +132,7 @@ const problem = {
         "Given a binary tree.Traverse the tree in the manner of reverse level order.",
       link:
         "https://codezen.codingninjas.com/practice/537962/1930/reverse-level-order-traversal",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["N", "D"],
       date: "19-July-2020",
     },
   ],
