@@ -49,7 +49,7 @@ const problem = {
       description:
         "Given an integer num, find the closest two integers in absolute difference whose product equals(num + 1 ) or (num + 2).",
       link: "https://www.geeksforgeeks.org/closest-product-pair-array/",
-      whoDone: ["M", "N"],
+      whoDone: ["M", "N", "D"],
       date: "14-July-2020",
     },
   ],
@@ -60,7 +60,7 @@ const problem = {
         "You are given a string. Find the first recurring character in the string.",
       link:
         "https://www.geeksforgeeks.org/find-the-first-repeated-character-in-a-string/",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["M", "N"],
       date: "16-July-2020",
     },
     {
@@ -69,14 +69,14 @@ const problem = {
         "You are given an unsorted array. Find the length of the longest sequence of consecutive numbers in the array.",
       link:
         "https://codezen.codingninjas.com/practice/470/2295/longest-sequence",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["M", "N"],
       date: "16-July-2020",
     },
     {
       heading: "Group Anagrams Together",
       description: "You are given an array, group the anagrams together.",
       link: "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["M", "N"],
       date: "16-July-2020",
     },
   ],
@@ -87,7 +87,7 @@ const problem = {
         "Given two linked lists sorted in increasing order. Merge them such a way that the result list is in decreasing order",
       link:
         "https://codezen.codingninjas.com/practice/469/762/merge-two-linked-lists",
-      whoDone: ["M", "N"],
+      whoDone: ["M", "N", "D"],
       date: "17-July-2020",
     },
     {
@@ -123,7 +123,7 @@ const problem = {
         "Given a perfect binary tree having N nodes, you have to reverse its alternate levels. That is reverse level 2, level 4 and so on. Root is at level 1.",
       link:
         "https://codezen.codingninjas.com/practice/540641/794/reverse-alternate-nodes",
-      whoDone: ["M", "N", "D"],
+      whoDone: ["M", "N"],
       date: "19-July-2020",
     },
     {
