@@ -164,6 +164,32 @@ const problem = {
       date: "20-July-2020",
     },
   ],
+  day7: [
+    {
+      heading: "Vipul And Modulus",
+      description:
+        "find out how many numbers can be formed by rearranging digits of number N whose modulo M is 0?",
+      link: "https://hack.codingblocks.com/app/dcb/512",
+      whoDone: [],
+      date: "22-July-2020",
+    },
+    {
+      heading: "Chocolate on Sale",
+      description:
+        " if Martin buys a single chocolate from the bakery, he’ll get atmost K chocolates ( all of different varieties) for free. Find the minimum amount of money to spend on buying all the varieties of chocolates.",
+      link: "https://hack.codingblocks.com/app/dcb/1530",
+      whoDone: [],
+      date: "22-July-2020",
+    },
+    {
+      heading: "Largest Subarray with 0 and 1",
+      description:
+        "You are Given an array containing only 0s and 1s, find the largest subarray which contain equal no of 0s and 1s.",
+      link: "https://hack.codingblocks.com/app/dcb/68",
+      whoDone: [],
+      date: "22-July-2020",
+    },
+  ],
 };
 
 /* ==================================================================
@@ -175,6 +201,8 @@ const problem = {
 
   ===================================================================
   ===================================================================*/
+
+let currentDay = 7;
 
 let currentCoderId = Number(window.localStorage.getItem("currentCoderId"));
 const coders = ["D", "M", "N"];
@@ -232,7 +260,7 @@ const dayNumberHtml = (dayNumber) =>
 
 let totalProblemCount = Object.keys(problem).length;
 dayNumber = 3;
-let currentDay = 6;
+
 let dayRetrive = "day" + currentDay;
 
 const showAllDays = () => {
