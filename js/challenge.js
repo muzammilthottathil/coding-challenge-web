@@ -168,7 +168,7 @@ const problem = {
     {
       heading: "Vipul And Modulus",
       description:
-        "find out how many numbers can be formed by rearranging digits of number N whose modulo M is 0?",
+        "Find out how many numbers can be formed by rearranging digits of number N whose modulo M is 0.",
       link: "https://hack.codingblocks.com/app/dcb/512",
       whoDone: [],
       date: "22-July-2020",
@@ -176,7 +176,7 @@ const problem = {
     {
       heading: "Chocolate on Sale",
       description:
-        " if Martin buys a single chocolate from the bakery, he’ll get atmost K chocolates ( all of different varieties) for free. Find the minimum amount of money to spend on buying all the varieties of chocolates.",
+        "If Martin buys a single chocolate from the bakery, he’ll get atmost K chocolates ( all of different varieties) for free. Find the minimum amount of money to spend on buying all the varieties of chocolates.",
       link: "https://hack.codingblocks.com/app/dcb/1530",
       whoDone: [],
       date: "22-July-2020",
