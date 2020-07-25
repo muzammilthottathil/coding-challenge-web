@@ -9,7 +9,7 @@ const replaceWindow = () => {
   }, 500);
 };
 
-const participants = ["D", "M", "N"];
+const participants = ["D", "M", "N", "A"];
 let currentCoderId = 0;
 
 const leftSlider = () => {

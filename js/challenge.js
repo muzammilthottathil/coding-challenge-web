@@ -253,13 +253,13 @@ let totalIndividualCards;
 const totalCards = (totalIndividualCards) =>
   '<div class="cards">' + totalIndividualCards + "</div>";
 
-let dayNumber;
+// let dayNumber;
 
 const dayNumberHtml = (dayNumber) =>
   '<div id="day-number">Day-' + dayNumber + "</div>";
 
 let totalProblemCount = Object.keys(problem).length;
-dayNumber = 3;
+// dayNumber = 3;
 
 let dayRetrive = "day" + currentDay;
 
